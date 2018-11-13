@@ -1,0 +1,42 @@
+div {
+	column-count: 4;
+	column-gap: 40px;
+	text-align:Center;
+	font-size: 19px;
+}
+body {
+	background-color: #2eb82e;
+}
+{.grid
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr
+	
+}
+.grid-colspan1 {
+	grid-column-start: 1;
+	grid-column-end: span 5;
+}
+h1 {
+		font-size: 37px;
+}
+h1.p {
+    border: 5px solid black;
+}
+.dog {
+ height: 500px;
+ width: 500px;
+ float:left;
+}
+h2{
+	color: black;
+	font-family: arial;
+	font-size:19px;
+}
+p{
+	color: black;
+	font-family: arial;
+	font-size:19px;
+	float:right;
+	margin-top: 100px;
+}
+	
