@@ -7,14 +7,24 @@ div {
 body {
 	background-color: #2eb82e;
 }
-{.grid
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr
-	
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 .grid-colspan1 {
 	grid-column-start: 1;
 	grid-column-end: span 5;
+	color:blue;
+	font-size:40px;
+	background-color:red;
+}
+.grid-colspan2 {
+	grid-column-start: 2;
+	grid-column-end: span 5;
+	color:blue;
+	font-size:40px;
+	background-color:orange;
 }
 h1 {
 		font-size: 37px;
